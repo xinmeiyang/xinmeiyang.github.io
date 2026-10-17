@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xinmei Yang</title>
+  <meta name="description" content="Xinmei Yang is a PhD candidate in Economics at Harvard University working at the intersection of machine learning, large language models, healthcare, and economics.">
+  <link rel="icon" type="image/png" href="images/profile.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<header class="masthead">
+  <nav class="masthead-inner">
+    <a class="site-name" href="#top">Xinmei Yang</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#papers">Papers</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="uploads/resume.pdf">CV</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <img class="avatar" src="images/profile.png" alt="Xinmei Yang">
+    <div class="sidebar-intro">
+      <p class="sidebar-name">Xinmei Yang</p>
+      <p class="sidebar-role">PhD Candidate in Economics<br>Harvard University</p>
+    </div>
+    <ul class="sidebar-links">
+      <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Cambridge, MA</li>
+      <li><a href="mailto:xinmei_yang@g.harvard.edu"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=Kb_XsqgAAAAJ&amp;hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
+      <li><a href="https://github.com/xinmeiyang/"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/xinmei-yang-b43427233/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+      <li><a href="https://x.com/XinmeiYang"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i>X</a></li>
+      <li><a href="uploads/resume.pdf"><i class="fa-solid fa-file-lines" aria-hidden="true"></i>CV</a></li>
+    </ul>
+  </aside>
+
+  <main class="content">
+
+    <!-- About -->
+    <section id="about">
+      <h1 class="section-title">About me</h1>
+      <div class="prose">
+        <p>Welcome. I am a PhD candidate in Economics at <a href="https://www.harvard.edu/">Harvard University</a>, with a PhD minor in Data Science. I am fortunate to be advised by Prof. <a href="https://www.michaellz.com/">Michael Lingzhi Li</a> and Prof. <a href="https://shapiro.scholars.harvard.edu/">Jesse Shapiro</a>. I do applied machine learning research at the intersection of AI, healthcare, and economics.</p>
+        <p>I received my BSc in Resource Economics from <a href="https://en.ruc.edu.cn/">Renmin University of China</a>. I also spent summer 2026 at <a href="https://corp.roblox.com/">Roblox</a> as a Data Science Intern.</p>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <h2 class="section-title">Research</h2>
+      <div class="prose">
+        <p>My research sits at the intersection of machine learning, large language models, healthcare, and economics. I build AI tools for consequential decisions, and I use the tools of economics to measure what those decisions are worth.</p>
+        <ul>
+          <li><strong>AI and healthcare.</strong> I combine machine learning and causal inference on large clinical datasets to measure the value of care delivery, such as <a href="#paper-primary-care">how primary care affects patient outcomes after an ICU stay</a>. I also work on data-driven methods for decision-making under uncertainty in healthcare operations.</li>
+          <li><strong>Multi-agent LLM systems.</strong> I am interested in how groups of language-model agents can work together effectively.</li>
+          <li><strong>Machine learning for social science.</strong> Earlier, I used <a href="#paper-character-similarity">vision transformers</a> and <a href="#paper-linking">multimodal contrastive learning</a> to link noisy historical records at scale. I have also worked on empirical questions in economics, such as how crowdfunding backers respond to being pivotal and how outsourcing affects public auctions.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- News: add new items at the top -->
+    <section id="news">
+      <h2 class="section-title">News</h2>
+      <ol class="news prose">
+        <li>
+          <time datetime="2026-11">Nov 2026</time>
+          <p>I will present <a href="#paper-primary-care"><em>The Value of Primary Care Beyond Prevention: Evidence from Intensive Care Unit Mortality</em></a> at the <a href="https://meetings.informs.org/wordpress/annual/">INFORMS Annual Meeting 2026</a> in San Francisco, in the session <em>Innovations in Healthcare: AI, Analytics, and Human Factors</em> (Monday, November 2, 11:00 AM, Moscone South, Room 104). If you are attending, please feel free to reach out to grab a coffee and chat about research.</p>
+        </li>
+        <li>
+          <time datetime="2026-06">Jun 2026</time>
+          <p>Joined <strong>Roblox</strong> as a Data Science Intern for the summer.</p>
+        </li>
+        <li>
+          <time datetime="2023-12">Dec 2023</time>
+          <p><a href="#paper-character-similarity"><em>Quantifying Character Similarity with Vision Transformers</em></a> appeared in the Proceedings of EMNLP 2023.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Papers -->
+    <section id="papers">
+      <h2 class="section-title">Papers</h2>
+
+      <div class="paper-group">
+        <h3>AI and Healthcare</h3>
+        <ul class="papers">
+          <li class="paper" id="paper-primary-care">
+            <div class="badges"><span class="badge">Working Paper 2026</span><span class="badge soft">INFORMS 2026</span></div>
+            <p class="paper-title">The Value of Primary Care Beyond Prevention: Evidence from Intensive Care Unit Mortality</p>
+            <p class="authors"><span class="me">Xinmei Yang</span>, Michael Lingzhi Li, Robert S. Huckman</p>
+            <div class="paper-actions">
+              <button class="btn" type="button" aria-expanded="false">Abstract</button>
+            </div>
+            <p class="abstract" hidden>Primary care is widely valued for reducing downstream acute care utilization, and there has been significant effort in encouraging individuals to have regular and timely primary care visits. However, there have been few studies that quantify whether regular and timely primary care can improve post-illness outcomes. Using CRITICAL, a novel large-scale longitudinal ICU dataset, we empirically estimate the effect of <em>regular</em> primary care on 7- and 30-day mortality after an ICU stay, and how this benefit depends on the <em>recency</em> of the last visit. We find that having any regular primary care visit is associated with 1.85/2.17-percentage-point lower 7-day/30-day mortality, respectively. We further examine how this benefit decays over time: in a subsample of patients with a maintenance-visit history, a 90-day shorter interval between the last regular visit and ICU admission is associated with 2.1/2.9-percentage-point lower 7/30-day mortality respectively. These results establish the positive impact of regular and timely primary care on downstream acute-care outcomes. We further show that the implied welfare gain from a regular primary care visit within one year of ICU admission ($4,300) or a recent visit within three months ($14,700) far exceeds the annual cost of primary care ($439 per person). For policymakers, this demonstrates the importance of investing in primary care to deliver better long-term health outcomes.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="paper-group">
+        <h3>Machine Learning for Social Science</h3>
+        <ul class="papers">
+          <li class="paper" id="paper-character-similarity">
+            <div class="badges"><span class="badge">EMNLP 2023</span></div>
+            <p class="paper-title"><a href="https://aclanthology.org/2023.emnlp-main.863">Quantifying Character Similarity with Vision Transformers</a></p>
+            <p class="authors"><span class="me">Xinmei Yang</span>, Abhishek Arora, Shao-Yu Jheng, Melissa Dell</p>
+            <div class="paper-actions">
+              <button class="btn" type="button" aria-expanded="false">Abstract</button>
+              <a class="btn" href="https://aclanthology.org/2023.emnlp-main.863">Paper</a>
+            </div>
+            <p class="abstract" hidden>Record linkage is a bedrock of quantitative social science, as analyses often require linking data from multiple, noisy sources. Off-the-shelf string matching methods are widely used, as they are straightforward and cheap to implement and scale. Not all character substitutions are equally probable, and for some settings there are widely used handcrafted lists denoting which string substitutions are more likely, that improve the accuracy of string matching. However, such lists do not exist for many settings, skewing research with linked datasets towards a few high-resource contexts that are not representative of the diversity of human societies. This study develops an extensible way to measure character substitution costs for OCR'ed documents, by employing large-scale self-supervised training of vision transformers (ViT) with augmented digital fonts. For each language written with the CJK script, we contrastively learn a metric space where different augmentations of the same character are represented nearby. In this space, homoglyphic characters, those with similar appearance such as &ldquo;O&rdquo; and &ldquo;0&rdquo;, have similar vector representations. Using the cosine distance between characters' representations as the substitution cost in an edit distance matching algorithm significantly improves record linkage compared to other widely used string matching methods, as OCR errors tend to be homoglyphic in nature. Homoglyphs can plausibly capture character visual similarity across any script, including low-resource settings. We illustrate this by creating homoglyph sets for 3,000 year old ancient Chinese characters, which are highly pictorial. Fascinatingly, a ViT is able to capture relationships in how different abstract concepts were conceptualized by ancient societies, that have been noted in the archaeological literature.</p>
+          </li>
+          <li class="paper" id="paper-linking">
+            <div class="badges"><span class="badge">arXiv 2023</span></div>
+            <p class="paper-title"><a href="https://arxiv.org/abs/2304.03464">Linking Representations with Multimodal Contrastive Learning</a></p>
+            <p class="authors">Abhishek Arora, <span class="me">Xinmei Yang</span>, Shao-Yu Jheng, Melissa Dell</p>
+            <div class="paper-actions">
+              <button class="btn" type="button" aria-expanded="false">Abstract</button>
+              <a class="btn" href="https://arxiv.org/abs/2304.03464">arXiv</a>
+            </div>
+            <p class="abstract" hidden>Many applications require linking individuals, firms, or locations across datasets. Most widely used methods, especially in social science, do not employ deep learning, with record linkage commonly approached using string matching techniques. Moreover, existing methods do not exploit the inherently multimodal nature of documents. In historical record linkage applications, documents are typically noisily transcribed by optical character recognition (OCR). Linkage with just OCR'ed texts may fail due to noise, whereas linkage with just image crops may also fail because vision models lack language understanding (e.g., of abbreviations or other different ways of writing firm names). To leverage multimodal learning, this study develops CLIPPINGS (Contrastively LInking Pooled Pre-trained Embeddings). CLIPPINGS aligns symmetric vision and language bi-encoders, through contrastive language-image pre-training on document images and their corresponding OCR'ed texts. It then contrastively learns a metric space where the pooled image-text embedding for a given instance is close to embeddings in the same class (e.g., the same firm or location) and distant from embeddings of a different class. Data are linked by treating linkage as a nearest-neighbor retrieval problem with the multimodal embeddings. CLIPPINGS outperforms widely used string matching methods by a wide margin in linking mid-20th century Japanese firms across financial documents.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="paper-group">
+        <h3>Economics</h3>
+        <ul class="papers">
+          <li class="paper" id="paper-crowdfunding">
+            <div class="badges"><span class="badge">Working Paper 2025</span></div>
+            <p class="paper-title">Does My Contribution Matter? Pivotality and Investment in Crowdfunding</p>
+            <p class="authors"><span class="me">Xinmei Yang</span>, Junru Lyn</p>
+            <div class="paper-actions">
+              <button class="btn" type="button" aria-expanded="false">Abstract</button>
+            </div>
+            <p class="abstract" hidden>Using data collected from Kickstarter and a regression discontinuity design, we find that the number of new backers drops sharply once a project reaches its funding goal, and that this drop is concentrated near the deadline. The amount given per backer does not change. A model that combines pivotal motives with warm glow explains the pattern.</p>
+          </li>
+          <li class="paper" id="paper-judicial-auctions">
+            <div class="badges"><span class="badge">Working Paper 2025</span></div>
+            <p class="paper-title">Efficiency Improvement through Outsourcing and Incentivizing: Evidence from Judicial Auctions in China</p>
+            <p class="authors">Zhiren Hu, <span class="me">Xinmei Yang</span></p>
+            <div class="paper-actions">
+              <button class="btn" type="button" aria-expanded="false">Abstract</button>
+            </div>
+            <p class="abstract" hidden>Using the judicial auction outsourcing reform in China as a natural experiment, this study examines whether public service outsourcing improves efficiency in foreclosure auctions. After outsourcing, the auction success rate increased by 2.4%, which only occurred under the revenue-sharing contract. The improvement was driven by reduced search frictions, better information disclosure of auctioned items and higher trust in private companies, not by lower auction prices or lower participation thresholds that may harm the principals.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="prose">
+        <div class="entry-head"><strong>Roblox, Data Science Intern</strong><span class="entry-date">Summer 2026</span></div>
+        <p>San Mateo, CA. Worked on recommendations for new marketplace items.</p>
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching">
+      <h2 class="section-title">Teaching</h2>
+      <div class="prose">
+        <p>Teaching Fellow, Harvard University</p>
+        <ul>
+          <li><a href="https://qrd.college.harvard.edu/directory/econ-1126-quantitative-methods-in-economics/">Econ 1126: Quantitative Methods in Economics</a>, with Prof. Davide Viviano</li>
+          <li><a href="https://scholar.harvard.edu/campbell/classes">Econ 70: Personal Finance</a>, with Prof. John Campbell</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer class="footer">
+  <p>&copy; 2026 Xinmei Yang. Last updated October 2026.</p>
+</footer>
+
+<script>
+  // A <details> element would put the abstract inside the button row, so a button toggles it instead.
+  document.querySelectorAll('.paper .btn[aria-expanded]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var abstract = button.closest('.paper').querySelector('.abstract');
+      abstract.hidden = !abstract.hidden;
+      button.setAttribute('aria-expanded', String(!abstract.hidden));
+    });
+  });
+</script>
+</body>
+</html>
