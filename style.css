@@ -296,6 +296,16 @@ section + section { margin-top: 3.5rem; }
 .authors { margin: 0.3rem 0 0; color: var(--muted); font-size: 0.88rem; }
 .authors .me { color: var(--ink); font-weight: 600; }
 
+/* Coauthor links stay grey so the author line does not compete with the title. */
+.authors a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-underline-offset: 3px;
+}
+
+.authors a:hover { color: var(--green); text-decoration-color: currentColor; }
+
 .paper-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 0.7rem; }
 
 .btn {
